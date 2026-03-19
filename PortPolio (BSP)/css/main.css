@@ -1,0 +1,47 @@
+@charset "utf-8";
+body{
+    font-family: "맑은 고딕","malgun-gothic",sans-serif;
+    background: #fff;
+}
+/* 초기화 */
+*{margin: 0;padding: 0;box-sizing: border-box;}
+li{list-style: none;}
+a{text-decoration: none;}
+button{background: none;border: none;cursor: pointer;}
+img{display: block;border: none;}
+
+img{max-width:1440px;
+  margin:0 auto;
+margin-bottom: 1px;}
+body{background: url("../images/5412db4ad141a3748ce01835b7a46d91.jpg"), no-repeat;}
+
+.moovit{
+  position: relative;
+}
+.m_c{
+  position: absolute;
+  left: 300px;
+  bottom: 70px;
+  z-index: 999px;
+}
+.salad{
+  position: relative;
+}
+.s_c{
+  position: absolute;
+  left: 350px;
+  bottom: 150px;
+  z-index: 998px;
+}
+.breeze{
+  position: relative;
+}
+.b_c{
+  position: absolute;
+  left: 320px;
+  bottom: 300px;
+  z-index: 998px;
+}
+
+
+
